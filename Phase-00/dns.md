@@ -245,9 +245,9 @@ DNS has several classes of attacks. Each one is covered in detail in its own fil
 
 | Attack | What it does | Where to read |
 |--------|-------------|---------------|
-| Cache Poisoning | Injects fake records into a resolver's cache, redirecting users | [Attacks/DNS-attacks/cache-poisoning.md](../../Attacks/DNS-attack/cache-poisoning.md) |
-| DNS Amplification | Uses open resolvers to flood a victim with traffic | [Attacks/DNS-attacks/dns-amplification.md](../../Attacks/DNS-attack/dns-amplification.md) |
-| DNS Tunneling | Hides data or C2 traffic inside DNS queries | [Attacks/DNS-attacks/dns-tunneling.md](../../Attacks/DNS-attack/dns-tunneling.md) |
+| Cache Poisoning | Injects fake records into a resolver's cache, redirecting users | [Attacks/DNS-attacks/cache-poisoning.md](../Attacks/DNS-attack/cache-poisoning.md) |
+| DNS Amplification | Uses open resolvers to flood a victim with traffic | [Attacks/DNS-attacks/dns-amplification.md](../Attacks/DNS-attack/dns-amplification.md) |
+| DNS Tunneling | Hides data or C2 traffic inside DNS queries | [Attacks/DNS-attacks/dns-tunneling.md](../Attacks/DNS-attack/dns-tunneling.md) |
 
 **DNSSEC** is the primary defense against cache poisoning. It adds cryptographic signatures to DNS records so resolvers can verify authenticity. A poisoned record without a valid signature is rejected.
 
