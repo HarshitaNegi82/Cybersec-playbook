@@ -29,8 +29,8 @@ This layer does not handle delivery — it relies on all layers below it. A web 
 **Attacks at this layer:** SQL injection, XSS, CSRF, API abuse, directory traversal.
 
 See:
-- [attacks/application-attacks/sql-injection.md](../../attacks/application-attacks/sql-injection.md)
-- [attacks/application-attacks/xss.md](../../attacks/application-attacks/xss.md)
+- [Attacks/Application-attack/sql-injection.md](../Attacks/Application-attack/sql-injection.md)
+- [Attacks/Application-attack/xss.md](../Attacks/Application-attack/xss.md)
 
 **Defence:** WAF (Web Application Firewall), input validation, output encoding, parameterized queries.
 
@@ -62,7 +62,7 @@ TCP and UDP. This layer adds ports, handles reliable delivery (TCP), and manages
 
 **Attacks at this layer:** SYN flood (exhausts TCP connection queue), UDP flood, port scanning.
 
-See: [attacks/network-attacks/syn-flood.md](../../attacks/network-attacks/syn-flood.md)
+See: [Attacks/Network-attack/syn-flood.md](../Attacks/Network-attack/syn-flood.md)
 
 **Defence:** SYN cookies, rate limiting, stateful firewalls, Security Groups (AWS).
 
@@ -98,7 +98,7 @@ MAC addressing and frame delivery within a local network. Switches operate here 
 
 **Attacks at this layer:** ARP spoofing, MAC flooding, VLAN hopping.
 
-See: [attacks/network-attacks/arp-spoofing.md](../../attacks/network-attacks/arp-spoofing.md)
+See: [Attacks/Network-attack/arp-spoofing.md](../Attacks/Network-attack/arp-spoofing.md)
 
 **Defence:** Dynamic ARP Inspection (DAI) on managed switches, VLANs, 802.1X port authentication.
 
